@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+/*@recommand-height:200px;*/
+.header {
+  height: 60px;
+  background-color: #000000;
+}
+.banner {
+  height: 560px;
+}
+.courses {
+  height: 200px;
+}
+.footer {
+  height: 286px;
+  background-color: #000000;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.logo {
+  float: left;
+  width: 128px;
+  height: 36px;
+  background: red;
+  margin: 12px 25px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.nav {
+  float: left;
+}
+.nav-item {
+  width: 100px;
+  height: 60px;
+  color: white;
+  display: block;
+  float: left;
+  text-align: center;
+  line-height: 60px;
+}
+.nav-item:hover {
+  background-color: #363c41;
+}
+.search {
+  float: right;
+  margin: 15px 40px;
+  position: relative;
+}
+.search:before {
+  content: "前端入门";
+  display: block;
+  width: 70px;
+  height: 26px;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  text-align: center;
+  line-height: 26px;
+  font-size: 13px;
+  background-color: #363c41;
+}
+.search .input {
+  width: 200px;
+  height: 36px;
+  border: none;
+  background-color: none;
+  background: black;
+  border-bottom: 1px solid #ccc;
+}
+.profile {
+  float: right;
+}
+.profile-item {
+  display: block;
+  float: left;
+  width: 60px;
+  height: 60px;
+  background: #ccc;
+  margin-left: 1px;
+}
+.profile-item:hover {
+  background-color: #363c41;
+}
+.profile-ava {
+  width: 36px;
+  height: 36px;
+  margin: 12px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  display: block;
+}
